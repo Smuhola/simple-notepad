@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Simple notepad</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css"/>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		
+	</head>
+	<body>
+		<div id="title" contenteditable="true"></div>
+		<div id="text" contenteditable="true"></div>
+		<button class="savebutton" type="button" onclick="save()">
+			<i class="fas fa-save"></i> Save
+		</button>
+		<button class="downloadbutton" type="button" onclick="download()">
+			<i class="fas fa-download"></i> Download
+		</button>
+		<button class="resetbutton" type="button" onclick="reset()">
+			<i class="fas fa-trash-alt"></i> Reset
+		</button>
+	</body>
+
+	<script src="app.js"></script>
+	
+
+</html>

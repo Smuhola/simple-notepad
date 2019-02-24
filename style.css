@@ -1,0 +1,126 @@
+html {
+  font-family: "Helevetica", sans-serif;
+}
+
+body {
+  color: #333;
+  font-weight: 100;
+  max-width: 50em;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #eaeaea;
+}
+
+div:focus {
+  outline: none;
+}
+
+#title {
+  font-size: 36px;
+  margin-top: 30px;
+  border: 1px solid #ccc;
+  overflow: auto;
+  border-radius: 5px;
+  text-align: left;
+  background-color: white;
+}
+
+#text {
+  margin-top: 20px;
+  font-size: 16px;
+  outline: black;
+  border: 1px black;
+  height: 700px;
+  border: 1px solid #ccc;
+  overflow: auto;
+  border-radius: 5px;
+  text-align: left;
+  background-color: white;
+}
+
+.downloadbutton {
+  margin-top: 20px;
+  font-size: 15px;
+  color: black;
+  width: 150px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  background-color: white;
+}
+
+.downloadbutton:hover {
+  margin-top: 20px;
+  font-size: 15px;
+  color: black;
+  width: 150px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.savebutton {
+  margin-top: 20px;
+  font-size: 15px;
+  color: black;
+  width: 150px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #99ff99;
+  border-color: grey;
+}
+
+.savebutton:hover {
+  margin-top: 20px;
+  font-size: 15px;
+  color: black;
+  width: 150px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: #99ff99;
+  cursor: pointer;
+}
+
+.resetbutton {
+  margin-top: 20px;
+  font-size: 15px;
+  color: black;
+  width: 150px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #ff9999;
+  border-color: grey;
+}
+
+.resetbutton:hover {
+  margin-top: 20px;
+  font-size: 15px;
+  color: black;
+  width: 150px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: #ff9999;
+  cursor: pointer;
+}
