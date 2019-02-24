@@ -1,3 +1,3 @@
 # simple-notepad
 
-Simple browser notepad made in HTML, CSS and JavaScript.
+Simple browser notepad made with HTML, CSS and JavaScript.
